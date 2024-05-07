@@ -1,0 +1,117 @@
+#image-container {
+    display: none;
+    margin-top: 20px; /* Добавляем отступ сверху */
+}
+
+#image-container img {
+    margin-top: 20px; /* Отступ между картинками */
+    display: block;
+    pointer-events: none; /* Сделаем изображения прозрачными для событий клика */
+}
+
+.hidden {
+    display: none; /* Скрытые элементы */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button.big {
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+button.other {
+    border: 2px solid #4CAF50;
+}
+
+/* Стиль только для кнопки "3b" */
+button.big {
+    background-color: #ff0000; /* Красный цвет */
+}
+
+/* Стили для кнопок "UTG call" и "UTG 4b" */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+#defvsMp3b {
+    margin-top: 20px;
+        display: none;
+}
+#defvsMp3b :nth-child(1){
+    background-color: yellow;
+    color: black;
+}
+#defvsMp3b :nth-child(2){
+    background-color: rgb(98, 140, 143);
+}
+
+#defCo3b {
+    margin-top: 20px;
+        display: none;
+}
+#defCo3b :nth-child(1),
+#defCo3b :nth-child(3) {
+    background-color: yellow;
+    color: black;
+    
+}
+#defCo3b > :nth-child(2), #defCo3b > :nth-child(4) {
+    background-color: rgb(98, 140, 143);
+}
+#defBu3b > :nth-child(2),
+#defBu3b > :nth-child(4),
+#defBu3b > :nth-child(6) {
+    background-color: rgb(98, 140, 143);
+}
+
+#defBu3b :nth-child(1),
+#defBu3b :nth-child(3),
+#defBu3b :nth-child(5) {
+    background-color: yellow;
+    color: black;
+}
+
+
+#defSb3b > :nth-child(2),
+#defSb3b > :nth-child(4),
+#defSb3b > :nth-child(8),
+#defSb3b > :nth-child(6) {
+    background-color: rgb(98, 140, 143);
+}
+
+
+#defSb3b :nth-child(1),
+#defSb3b :nth-child(3),
+#defSb3b :nth-child(7),
+#defSb3b :nth-child(5) {
+    background-color: yellow;
+    color: black;
+}
+
+#defBb3b > :nth-child(2),
+#defBb3b > :nth-child(4),
+#defBb3b > :nth-child(8),
+#defBb3b > :nth-child(10),
+#defBb3b > :nth-child(6) {
+    background-color: rgb(98, 140, 143);
+}
+
+#defBb3b :nth-child(1),
+#defBb3b :nth-child(3),
+#defBb3b :nth-child(7),
+#defBb3b :nth-child(9),
+#defBb3b :nth-child(5) {
+    background-color: yellow;
+    color: black;
+}
